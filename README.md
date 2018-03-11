@@ -1,9 +1,8 @@
 # Mars Rover Test.  
 
-Javascript, Node.js  
-Test: Mocha , Chai.
+This test has been done with Javascript and Node.js and for testing Mocha and Chai.
 
-Problem : Mars Rover
+**Problem : Mars Rover**
  
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which is curiously rectangular, must be navigated by the rovers so that their on-board cameras can get a complete view of the surrounding terrain to send back to Earth.
  
@@ -25,15 +24,33 @@ Assume that the square directly North from (x, y) is (x, y+1).
 Input and Output
  
  
-Test Input:
+**Test Input:**
 
 5 5
+
 1 2 N
+
 LMLMLMLMM
+
 3 3 E
+
 MMRMMRMRRM
  
-Expected Output:
+**Expected Output:**
 
 1 3 N
+
 5 1 E 
+
+
+**Run the code**
+
+You will need Node Js installed in the system.
+
+And for run you need the following commands (in the project folder):
+
+npm install
+
+node app.js (Run the code)
+
+npm test (For testing the code)
